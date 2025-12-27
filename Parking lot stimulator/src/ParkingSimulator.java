@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.*;
 
-// Vehicle class
+// Vehicle clas
 class Vehicle {
     enum Type { CAR, TRUCK, MOTORCYCLE }
     private final String plate;
@@ -132,5 +132,6 @@ class ParkingSimulator {
         exit2.interrupt();
     }
 }
+
 
 
