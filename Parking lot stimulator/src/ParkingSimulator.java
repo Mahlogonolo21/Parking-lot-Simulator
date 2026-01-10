@@ -21,7 +21,7 @@ class Vehicle {
     }
 }
 
-// Parking Lott
+// Parking Lot
 class ParkingLot {
     private final int capacity;
     private final Set<String> parkedVehicles = ConcurrentHashMap.newKeySet();
@@ -132,6 +132,7 @@ class ParkingSimulator {
         exit2.interrupt();
     }
 }
+
 
 
 
